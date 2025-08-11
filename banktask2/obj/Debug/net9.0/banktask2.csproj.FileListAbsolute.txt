@@ -1,0 +1,14 @@
+D:\DataBase\c#\banktask2\bin\Debug\net9.0\banktask2.exe
+D:\DataBase\c#\banktask2\bin\Debug\net9.0\banktask2.deps.json
+D:\DataBase\c#\banktask2\bin\Debug\net9.0\banktask2.runtimeconfig.json
+D:\DataBase\c#\banktask2\bin\Debug\net9.0\banktask2.dll
+D:\DataBase\c#\banktask2\bin\Debug\net9.0\banktask2.pdb
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.AssemblyInfoInputs.cache
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.AssemblyInfo.cs
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.csproj.CoreCompileInputs.cache
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.dll
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\refint\banktask2.dll
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.pdb
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\banktask2.genruntimeconfig.cache
+D:\DataBase\c#\banktask2\obj\Debug\net9.0\ref\banktask2.dll
