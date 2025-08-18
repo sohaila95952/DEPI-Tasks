@@ -1,0 +1,14 @@
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.AssemblyInfoInputs.cache
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.AssemblyInfo.cs
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.csproj.CoreCompileInputs.cache
+D:\DataBase\c#\session4\bin\Debug\net9.0\session4.exe
+D:\DataBase\c#\session4\bin\Debug\net9.0\session4.deps.json
+D:\DataBase\c#\session4\bin\Debug\net9.0\session4.runtimeconfig.json
+D:\DataBase\c#\session4\bin\Debug\net9.0\session4.dll
+D:\DataBase\c#\session4\bin\Debug\net9.0\session4.pdb
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.dll
+D:\DataBase\c#\session4\obj\Debug\net9.0\refint\session4.dll
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.pdb
+D:\DataBase\c#\session4\obj\Debug\net9.0\session4.genruntimeconfig.cache
+D:\DataBase\c#\session4\obj\Debug\net9.0\ref\session4.dll
