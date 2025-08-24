@@ -34,28 +34,6 @@ namespace ExaminationSystem
             return int.Parse(studentAnswer) - 1 == CorrectOption;
         }
 
-            //if (string.IsNullOrEmpty(studentAnswer) ) 
-            //{ 
-            //    return false; 
-            //}
-            //int ChosenOptionIndex;
-            //if (!int.TryParse(studentAnswer,out ChosenOptionIndex))
-            //{
-            //    return false;
-            //}
-            //ChosenOptionIndex--;
-            //if (ChosenOptionIndex < 0 || ChosenOptionIndex >= Options.Count)
-            //{
-            //    return false;
-            //}
-
-            //if (ChosenOptionIndex == CorrectOption)
-            //{
-            //    return true;
-            //}
-
-            //return ChosenOptionIndex ==CorrectOption;
-
         }
     }
 

@@ -37,32 +37,48 @@ namespace ExaminationSystem
             }
             IsCompleted = true;
             CalculateScore();
+            
             Student.ExamScores[Exam] = Score;
-            Console.WriteLine($"Your score: {Score}/{Exam.TotalMarks}");
-            Console.WriteLine($"Exam {Exam.Title} has Finished...");
+            //Console.WriteLine($"Your score: {Score}/{Exam.TotalMarks}");
+            //Console.WriteLine($"Exam {Exam.Title} has Finished...");
 
         }
         public void CalculateScore()
         {
-            int TotalScore = 0;
-            foreach(var question in StudentAnswers)
+            Score = 0; 
+            foreach (var question in StudentAnswers) 
             {
                 Question question1 = question.Key;
                 string answer = question.Value;
 
-                if (! (question is TextQuestion))
+                if (question1 is MultipleChoiceQuestion mcq)
                 {
-                    if (question1.CheckAnswer(answer)) 
+                    if (int.TryParse(answer, out int answerIndex) && answerIndex - 1 == mcq.CorrectOption)
                     {
-                        TotalScore += question1.Marks;
+                        Score += mcq.Marks;
+                        //Console.WriteLine($"MCQ '{mcq.Text}' scored: {mcq.Marks}");
+                    }
+                }
+                else if (question1 is TrueFalseQuestion tfq)
+                {
+                    if (bool.TryParse(answer, out bool answerValue) && answerValue == tfq.CorrectOption)
+                    {
+                        Score += tfq.Marks;
+                        //Console.WriteLine($"TFQ '{tfq.Text}' scored: {tfq.Marks}");
+                    }
+                }
+                else if (question1 is TextQuestion textQuestion)
+                {
+                    if (ManualTextQuestionMarks.TryGetValue(textQuestion, out int manualScore))
+                    {
+                        Score += manualScore;
+                        //Console.WriteLine($"Text Question '{textQuestion.Text}' scored: {manualScore}");
                     }
                 }
             }
-            foreach (var answer in ManualTextQuestionMarks)
-            {
-                TotalScore += answer.Value;
-            }
-            Score =TotalScore;
+            Student.ExamScores[Exam] = Score;
+            //Console.WriteLine($"Total Score for {Student.Name} in {Exam.Title}: {Score}");
+            Console.WriteLine("Please wait for the instructor to grade your text questions,\n then check your results in View Scores.");
         }
     }
 }

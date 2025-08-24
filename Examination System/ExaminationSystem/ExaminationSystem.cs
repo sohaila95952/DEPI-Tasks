@@ -45,6 +45,7 @@ namespace ExaminationSystem
             studentExam.ManualTextQuestionMarks[textQuestion]=score;
             studentExam.CalculateScore();
             Console.WriteLine($"Score of {score} assigned to Text question '{textQuestion.Text}' for {student.Name} in {exam.Course.Title} exam.");
+            Console.WriteLine($"Updated total score for {student.Name} in {exam.Title}: {student.ExamScores[exam]}/{exam.TotalMarks}");
 
         }
         public void AddCourse(Course course)
@@ -76,7 +77,6 @@ namespace ExaminationSystem
             }
             Console.WriteLine($"--- Exam Report for '{exam.Title}' ({exam.Course.Title}) ---");
             Console.WriteLine($"Total Marks: {exam.TotalMarks}");
-            Console.WriteLine($"Passing Score: {exam.Course.MaxDegree * 0.6:F0} (60% of Course Max Degree)");
             Console.WriteLine("--------------------------------------------------");
             List<Student> studentsWhoTookExam = new List<Student>();
             foreach (var studentExam in studentExams)
@@ -96,17 +96,9 @@ namespace ExaminationSystem
             foreach (var student in studentsWhoTookExam)
             {
                 int score = student.ExamScores.ContainsKey(exam) ? student.ExamScores[exam] : 0;
-                string passStatus = null;
-                if(score >= exam.Course.MaxDegree * 0.6)
-                {
-                    passStatus = "PASS";
-                }
-                else
-                {
-                    passStatus="FAIL";
-                }
+              
                 
-                Console.WriteLine($"Student: {student.Name}, Score: {score}/{exam.TotalMarks}, Status: {passStatus}");
+                Console.WriteLine($"Student: {student.Name}, Score: {score}/{exam.TotalMarks}");
             }
             Console.WriteLine("--------------------------------------------------");
         }
