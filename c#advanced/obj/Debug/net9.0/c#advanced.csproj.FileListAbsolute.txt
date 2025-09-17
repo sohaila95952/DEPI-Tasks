@@ -1,0 +1,14 @@
+D:\DEPI\c#\c#advanced\c#advanced\bin\Debug\net9.0\c#advanced.exe
+D:\DEPI\c#\c#advanced\c#advanced\bin\Debug\net9.0\c#advanced.deps.json
+D:\DEPI\c#\c#advanced\c#advanced\bin\Debug\net9.0\c#advanced.runtimeconfig.json
+D:\DEPI\c#\c#advanced\c#advanced\bin\Debug\net9.0\c#advanced.dll
+D:\DEPI\c#\c#advanced\c#advanced\bin\Debug\net9.0\c#advanced.pdb
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.AssemblyInfoInputs.cache
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.AssemblyInfo.cs
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.csproj.CoreCompileInputs.cache
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.dll
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\refint\c#advanced.dll
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.pdb
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\c#advanced.genruntimeconfig.cache
+D:\DEPI\c#\c#advanced\c#advanced\obj\Debug\net9.0\ref\c#advanced.dll
