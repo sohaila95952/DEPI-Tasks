@@ -1,0 +1,14 @@
+D:\DEPI\c#\c#advanced\linq\bin\Debug\net9.0\linq.exe
+D:\DEPI\c#\c#advanced\linq\bin\Debug\net9.0\linq.deps.json
+D:\DEPI\c#\c#advanced\linq\bin\Debug\net9.0\linq.runtimeconfig.json
+D:\DEPI\c#\c#advanced\linq\bin\Debug\net9.0\linq.dll
+D:\DEPI\c#\c#advanced\linq\bin\Debug\net9.0\linq.pdb
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.AssemblyInfoInputs.cache
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.AssemblyInfo.cs
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.csproj.CoreCompileInputs.cache
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.dll
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\refint\linq.dll
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.pdb
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\linq.genruntimeconfig.cache
+D:\DEPI\c#\c#advanced\linq\obj\Debug\net9.0\ref\linq.dll
