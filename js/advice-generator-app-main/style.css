@@ -1,0 +1,74 @@
+﻿body {
+    background-color: rgb(38, 39, 45);
+    color: rgb(184, 212, 218);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(51, 53, 63);
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
+    position: relative;
+}
+
+.adviceNumber {
+    color: rgb(102, 255, 179);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.adviceText {
+    color: rgb(184, 212, 218);
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.btnIcon {
+    max-height: 22px;
+    max-width: 22px;
+}
+
+.btn {
+    background-color: rgb(102, 255, 179);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .btn:hover {
+        box-shadow: 0 0 15px rgb(102, 255, 179);
+    }
+
+@media (max-width: 600px) {
+    .card {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .divider img {
+        content: url("images/pattern-divider-mobile.svg");
+        margin-bottom: 20px;
+    }
+}
+
+)
